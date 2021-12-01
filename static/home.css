@@ -1,0 +1,106 @@
+.main-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 18px 0px 18px 10px;
+}
+
+.main-title {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.1;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.main-content {
+  flex: 1.8;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(190, 190, 190);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.main-subtitle {
+  border-bottom: 1px solid rgb(131, 131, 131);
+  color: rgb(61, 143, 175);
+  font-size: 14px;
+}
+
+.main-updated {
+  padding: 20px;
+  font-size: 12px;
+}
+
+.updated-box {
+  display: flex;
+  flex: 0.5;
+}
+
+.updated-board {
+  flex: 0.5;
+}
+
+.updated-board-row {
+  margin-top: 2px;
+}
+
+.updated-all {
+  flex: 0.5;
+}
+
+.main-miniroom {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 100%;
+}
+
+.mark {
+  padding: 0 5px;
+  color: white;
+  border-radius: 3px;
+  margin-top: 1px;
+}
+.mark-picture {
+  background-color: rgb(243, 107, 107);
+}
+
+.mark-board {
+  background-color: rgb(99, 99, 241);
+}
+
+.updated-board-title {
+  display: inline-block;
+}
+
+.updated-all-row {
+  display: flex;
+  margin-top: 2px;
+  border-bottom: 1px dashed rgb(110, 110, 110);
+}
+
+.updated-row-flex {
+  flex: 0.5;
+}
+
+.new-count {
+  color: blue;
+}
+
+.miniroom-content {
+  flex: 1;
+  background-color: rgb(236, 223, 236);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.miniroom-content img {
+  width: 200px;
+}

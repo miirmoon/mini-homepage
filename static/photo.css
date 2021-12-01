@@ -1,0 +1,45 @@
+.scroll-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  overflow: auto;
+}
+
+.photo-box {
+  height: 100%;
+}
+
+.photo-title {
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  font-weight: 600;
+  border-top: 1px solid rgb(202, 202, 202);
+  margin-top: 30px;
+}
+
+.photo-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.photo-author {
+  color: rgb(73, 73, 212);
+}
+
+.photo-photo {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.photo-photo img {
+  height: 100%;
+}
+
+.photo-box p {
+  margin-top: 20px;
+}
